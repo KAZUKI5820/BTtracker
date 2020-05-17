@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BT tracker</string>
+    <string name="bt_tracker">BT tracker</string>
+    <string name="save">save</string>
+    <string name="please_input_your_body_temperature_today">please input your body temperature today</string>
+</resources>
