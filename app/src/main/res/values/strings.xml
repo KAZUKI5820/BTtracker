@@ -3,4 +3,9 @@
     <string name="bt_tracker">BT tracker</string>
     <string name="save">save</string>
     <string name="please_input_your_body_temperature_today">please input your body temperature today</string>
+    <string name="please_log_yor_temprature_today">Please log yor temprature today</string>
+    <string name="handling_fever">Handling Fever</string>
+    <string name="mechanism_of_fever">Mechanism of Fever</string>
+    <string name="check_normal_range">Check Normal Range</string>
+    <string name="log_body_temperature">log body temperature</string>
 </resources>
