@@ -54,8 +54,9 @@
             android:layout_weight="1"
             android:background="#009688"
             android:onClick="goToLog_Activity"
-            android:paddingLeft="10dp"
+            android:paddingLeft="8dp"
             android:paddingTop="10dp"
+            android:paddingRight="8dp"
             android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
@@ -73,8 +74,9 @@
             android:layout_weight="1"
             android:background="#009688"
             android:onClick="goToNormal_Activity"
-            android:paddingLeft="10dp"
+            android:paddingLeft="8dp"
             android:paddingTop="10dp"
+            android:paddingRight="8dp"
             android:text="@string/check_normal_range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
@@ -91,8 +93,9 @@
             android:layout_weight="1"
             android:background="#009688"
             android:onClick="goToMechanism_Activity"
-            android:paddingLeft="10dp"
+            android:paddingLeft="8dp"
             android:paddingTop="10dp"
+            android:paddingRight="8dp"
             android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
@@ -109,8 +112,9 @@
             android:layout_weight="1"
             android:background="#009688"
             android:onClick="goToWeb1"
-            android:paddingLeft="10dp"
+            android:paddingLeft="8dp"
             android:paddingTop="10dp"
+            android:paddingRight="8dp"
             android:text="@string/handling_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
