@@ -25,14 +25,15 @@
         android:layout_marginBottom="44dp"
         app:layout_constraintBottom_toBottomOf="@+id/title_background"
         app:layout_constraintStart_toStartOf="@+id/title_background"
-        app:srcCompat="@android:drawable/btn_star" />
+        app:srcCompat="@android:drawable/btn_star"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
-        android:text="BT Tracker"
+        android:text="@string/bt_tracker"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/title_background"
