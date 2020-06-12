@@ -10,7 +10,7 @@
         android:id="@+id/title_background"
         android:layout_width="wrap_content"
         android:layout_height="195dp"
-        android:background="#D5034201"
+        android:background="#2d6a4f"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
