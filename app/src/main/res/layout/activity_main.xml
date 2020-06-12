@@ -23,10 +23,11 @@
         android:layout_marginStart="64dp"
         android:layout_marginLeft="64dp"
         android:layout_marginBottom="44dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="@+id/title_background"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/title_background"
-        app:srcCompat="@android:drawable/btn_star"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@android:drawable/btn_star" />
 
     <TextView
         android:id="@+id/textView"
@@ -45,13 +46,18 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_background">
+        app:layout_constraintTop_toBottomOf="@+id/title_background"
+        app:layout_constraintVertical_bias="0.193">
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="45dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#009688"
             android:onClick="goToLog_Activity"
@@ -72,6 +78,9 @@
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#009688"
             android:onClick="goToNormal_Activity"
@@ -91,6 +100,9 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#009688"
             android:onClick="goToMechanism_Activity"
@@ -110,6 +122,9 @@
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:background="#009688"
             android:onClick="goToWeb1"
