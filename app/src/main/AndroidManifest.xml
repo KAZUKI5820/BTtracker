@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Mechanism_Activity"></activity>
+        <receiver
+            android:name=".ReminderBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity android:name=".Mechanism_Activity" />
         <activity android:name=".Normal_Activity" />
         <activity android:name=".Log_Activity" />
         <activity android:name=".MainActivity">
